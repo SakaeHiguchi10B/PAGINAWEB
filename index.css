@@ -1,0 +1,41 @@
+.catalogo{
+    height: 1000px;
+    background-image: url(ishan-kahapola-arachchi-5wpeSsXZ93s-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+}
+.menu{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sans-serif" ;
+}
+.menu nav{
+    width: 100%;
+    border: 1px solid white;
+    
+}
+.menu nav ul{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu nav ul li{
+    list-style: none;
+}
+.menu nav ul li a {
+    color: black;
+    text-decoration: none; 
+    transition: 0.2s;
+}
+.menu nav ul li a:hover {
+    font-size: 18px;
+    color: palevioletred
+    
+}
