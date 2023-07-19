@@ -4,10 +4,17 @@
     background-attachment: fixed;
     background-position: bottom;
 }
+    
+.img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: cyan;
+}
 .menu{
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: rgb(171, 144, 245);
 }
 *{
     margin: 0;
@@ -23,11 +30,13 @@
 .menu nav ul{
     height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 .menu nav ul li{
     list-style: none;
+    padding: 10px 18px;
+    border-right: 1px solid black;
 }
 .menu nav ul li a {
     color: black;
